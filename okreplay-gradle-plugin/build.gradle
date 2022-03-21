@@ -23,6 +23,6 @@ test {
   testLogging.showStandardStreams = isCi
 }
 
-validateTaskProperties {
+validatePlugins {
   failOnWarning = true
 }
