@@ -20,6 +20,9 @@ ext {
       guava                    : "com.google.guava:guava:31.0.1-android",
       guava_jre                : "com.google.guava:guava:31.0.1-jre",
       ddmlib                   : 'com.android.tools.ddms:ddmlib:25.3.0',
+      commonsIo                : 'commons-io:commons-io:2.11.0',
+      builderTestApi           : 'com.android.tools.build:builder-test-api:2.3.0',
+      androidToolsCommon       : 'com.android.tools:common:25.3.0',
       junit                    : "junit:junit:4.13.2",
       cglib                    : "cglib:cglib-nodep:2.2.2",
       jsr305                   : "com.google.code.findbugs:jsr305:3.0.2",
@@ -40,7 +43,7 @@ ext {
         exclude module: "groovy-all"
         exclude module: "junit"
       }),
-      espresso                 : 'androidx.test.espresso:espresso-core:3.1.0',
+      espresso                 : 'androidx.test.espresso:espresso-core:3.4.0',
       androidXTestRunner       : 'androidx.test:runner:1.2.0',
       androidXTestRules        : 'androidx.test:rules:1.1.1'
   ]
